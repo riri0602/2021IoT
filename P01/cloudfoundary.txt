@@ -1,0 +1,8 @@
+리소스 그룹
+이름 : MyFirstRG
+
+Cloud Foundry 조직
+이름 : keulee0602@gmail.com
+영역
+이름 : test
+지역 : 미국 남부
