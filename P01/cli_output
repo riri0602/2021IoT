@@ -1,0 +1,61 @@
+Welcome to IBM Cloud Shell!Image version: 1.0.30
+Note: Your Cloud Shell session is running in Dallas (us-south). Your workspace includes 500 MB of temporary storage. This session will close after an hour of inactivity. If you don't have any active sessions for an hour or you reach the 50-hour weekly usage limit, your workspace data is removed. To track your usage, go to Usage quota in the Cloud Shell menu.
+
+Tip: Enter 'ibmcloud' to use the IBM Cloud CLI. The Dallas (us-south) region is targeted by default. You can switch the region by running 'ibmcloud target -r <region-name>'.
+
+keulee0602@cloudshell:~$ ibmcloud login
+API endpoint: https://cloud.ibm.com
+Region: us-south
+
+Email> keulee0602@gmail.com
+
+Password> 
+Authenticating...
+OK
+
+Targeted account Gyuri Han's Account (85ae528fc36a44519482c1dcffa4c1e3)
+
+                      
+API endpoint:      https://cloud.ibm.com   
+Region:            us-south   
+User:              keulee0602@gmail.com   
+Account:           Gyuri Han's Account (85ae528fc36a44519482c1dcffa4c1e3)   
+Resource group:    No resource group targeted, use 'ibmcloud target -g RESOURCE_GROUP'   
+CF API endpoint:      
+Org:                  
+Space:                
+keulee0602@cloudshell:~$ ibmcloud resource groups
+Retrieving all resource groups under account 85ae528fc36a44519482c1dcffa4c1e3 as keulee0602@gmail.com...
+OK
+Name        ID                                 Default Group   State   
+MyFirstRG   82fa61e4f472432599e84f639e1e0e8c   true            ACTIVE
+keulee0602@cloudshell:~$ ibmcloud target -g MyFirstRG
+Targeted resource group MyFirstRG
+
+
+                      
+API endpoint:      https://cloud.ibm.com   
+Region:            us-south   
+User:              keulee0602@gmail.com   
+Account:           Gyuri Han's Account (85ae528fc36a44519482c1dcffa4c1e3)   
+Resource group:    MyFirstRG   
+CF API endpoint:      
+Org:                  
+Space:                
+keulee0602@cloudshell:~$ ibmcloud target -o keulee0602@gmail.com -s test
+Targeted Cloud Foundry (https://api.us-south.cf.cloud.ibm.com)
+
+Targeted org keulee0602@gmail.com
+
+Targeted space test
+
+
+                      
+API endpoint:      https://cloud.ibm.com   
+Region:            us-south   
+User:              keulee0602@gmail.com   
+Account:           Gyuri Han's Account (85ae528fc36a44519482c1dcffa4c1e3)   
+Resource group:    MyFirstRG   
+CF API endpoint:   https://api.us-south.cf.cloud.ibm.com (API version: 2.169.0)   
+Org:               keulee0602@gmail.com   
+Space:             test
