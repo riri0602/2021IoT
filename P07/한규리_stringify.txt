@@ -1,0 +1,4 @@
+{"name":"Gyuri","age":23,"city":"Daejeon"}
+{"name":"Gyuri","today":"2021-11-16T13:31:59.245Z","city":"Daejeon"}
+{"name":"Gyuri","city":"Daejeon"}
+{"name":"Gyuri","age":"function () {return 23;}","city":"Daejeon"}
