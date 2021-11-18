@@ -1,0 +1,12 @@
+C:\Users\klose>curl https://apikey-v2-18njw479e8bxevoqy2a1sl5lfl2l7nr93cjmbvzlc4oh:658a5a9c4fc3273894b980596073f2ea@979fb4df-6763-4aca-8fb2-0c444ee0a366-bluemix.cloudantnosqldb.appdomain.cloud/_all_dbs
+["query-demo-gui"]
+
+C:\Users\klose>curl https://apikey-v2-18njw479e8bxevoqy2a1sl5lfl2l7nr93cjmbvzlc4oh:658a5a9c4fc3273894b980596073f2ea@979fb4df-6763-4aca-8fb2-0c444ee0a366-bluemix.cloudantnosqldb.appdomain.cloud/query-demo-gui/_all_docs?include_docs=true
+{"total_rows":6,"offset":0,"rows":[
+{"id":"_design/partial-index","key":"_design/partial-index","value":{"rev":"1-57bdb8cc16f51157d7a9f5ebf0be71de"},"doc":{"_id":"_design/partial-index","_rev":"1-57bdb8cc16f51157d7a9f5ebf0be71de","language":"query","views":{"c387823bba25b8fbb478293cc3b8eaa84e4093b1":{"map":{"fields":{"age":"asc","lastname":"asc"},"partial_filter_selector":{"$and":[{"age":{"$gte":30}},{"lastname":{"$eq":"Greene"}}]}},"reduce":"_count","options":{"def":{"fields":["age","lastname"],"partial_filter_selector":{"age":{"$gte":30},"lastname":{"$eq":"Greene"}}}}}}}},
+{"id":"doc1","key":"doc1","value":{"rev":"1-cce7796c7113c5498b07d8e11d7e0c12"},"doc":{"_id":"doc1","_rev":"1-cce7796c7113c5498b07d8e11d7e0c12","firstname":"Sally","lastname":"Brown","age":16,"location":"New York City, NY"}},
+{"id":"doc2","key":"doc2","value":{"rev":"1-2c5ee70689bb75af6f65b0335d1c92f4"},"doc":{"_id":"doc2","_rev":"1-2c5ee70689bb75af6f65b0335d1c92f4","firstname":"John","lastname":"Brown","age":21,"location":"New York City, NY"}},
+{"id":"doc3","key":"doc3","value":{"rev":"1-f6055e3e09f215c522d45189208a1bdf"},"doc":{"_id":"doc3","_rev":"1-f6055e3e09f215c522d45189208a1bdf","firstname":"Greg","lastname":"Greene","age":35,"location":"San Diego, CA"}},
+{"id":"doc4","key":"doc4","value":{"rev":"1-0923b723c62fe5c15531e0c33e015148"},"doc":{"_id":"doc4","_rev":"1-0923b723c62fe5c15531e0c33e015148","firstname":"Anna","lastname":"Greene","age":44,"location":"Baton Rouge, LA"}},
+{"id":"doc5","key":"doc5","value":{"rev":"1-67458c7a505c1e83d167b154ad9fef0c"},"doc":{"_id":"doc5","_rev":"1-67458c7a505c1e83d167b154ad9fef0c","firstname":"Lois","lastname":"Brown","age":33,"location":"New York City, N"}}
+]}
