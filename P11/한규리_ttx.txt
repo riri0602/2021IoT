@@ -1,0 +1,5 @@
+1. synthesize()는 지정된 음성으로 말하는 오디오에 텍스트를 합성해주는 함수를 의미한다.
+synthesize()에 입력되는 인수들은 'audio/ogg;codecs=opus', 'audio/ogg;codecs=vorbis', 'audio/wav', 'audio/mpeg', 'audio/webm', 'audio/flac'과 같다.
+
+2. transcript.pipe(res)
+음성 파일 res 파이프...??
